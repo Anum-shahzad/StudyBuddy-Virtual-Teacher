@@ -1,0 +1,53 @@
+What is an array in C++?|A single variable|A collection of variables of the same data type|A function|B
+Correct syntax for declaring int array of size 5?|int arr(5);|int arr[5];|int arr = 5;|B
+Index of first element in an array?|0|1|-1|A
+Index of last element in array of size 10?|10|9|8|B
+Assign 20 to third element?|arr[2]= 20;|arr[3]= 20;|arr(2)= 20;|A
+Output of: int a[3]={10,20,30};cout<<a[1];|10|20|30|B
+How many elements in int nums[7]?|6|7|8|B
+Access arr[10] in array size 5 gives?|Valid output|Always 0|Undefined behavior|C
+Output of: int arr[4]={1,2,3,4};cout<<arr[0]+arr[3];|5|4|3|A
+Loop mostly used for arrays?|if|for|switch|B
+Initialize all elements to zero?|int arr[5]={0};|int arr[5]=0;|int arr={0,0,0,0,0};|A
+Size of: int marks[]={10,20,30};|Undefined|2|3|C
+Which is true about arrays?|Elements can be different types|Size changes at runtime|Index starts from 0|C
+Output of: int arr[5]={5};cout<<arr[1];|0|5|Undefined|A
+Access last element of array data (size n)?|data[n]|data[n-1]|data[n+1]|B
+
+What does arr[i] represent?|Array name|Function name|Element at index i|C
+Which operator is used to access array elements?|. (dot)|[] (brackets)|->|B
+Memory allocation of arrays is?|Contiguous|Random|Scattered|A
+Type of array size?|Must be constant|Can be float|Can be string|A
+Which is correct?|int arr[];|int arr[] = {1,2,3};|int arr[ ] = ;|B
+What happens if array size is omitted?|Error|Size is counted from initializers|Size becomes infinite|B
+Which is valid initialization?|int a[3]={1,2};|int a[3]={1,2,3,4};|int a[]={};|A
+What is arr[0] in string arr[]={"A","B","C"}?|A|B|C|A
+Can arrays store mixed data types?|Yes|No|Sometimes|B
+Output: int a[3]={1,2,3};cout<<a[2];|1|2|3|C
+Name of entire array?|arr[0]|arr|[arr]|B
+2D array is also called?|Matrix|Pointer|Class|A
+Correct syntax for 2D array?|int a[3][3];|int a(3,3);|int a[3,3];|A
+Access second row, first column?|a[2][1]|a[1][0]|a[0][1]|B
+Which is true?|Array size can't change|Array size changes automatically|Array disappears|A
+
+Output: int arr[4]={1,2};cout<<arr[2];|0|2|1|A
+Output: int arr[3]={};cout<<arr[0];|Garbage|0|Error|B
+Which header is required for arrays?|array|iostream|None|C
+Output: int arr[2]={10,20};cout<<arr[-1];|10|20|Undefined behavior|C
+Which is faster?|array|linked list|Both same|A
+Which stores array name?|Address|Value|Character|A
+Array name without index gives?|Size|Address|Value|B
+Output: int a[3]={1,2,3};cout<<a;|1|Address|Error|B
+Which is correct for constant array size?|const int n=5; int arr[n];|float n=5; int arr[n];|string n="5"; int arr[n];|A
+Which can be multi-dimensional?|Only int arrays|Only float arrays|Any array|C
+
+Which loop is best for traversal?|while|for|goto|B
+Array elements are stored in?|Heap|Stack or static memory|CPU|B
+Output: int arr[3]={4,4,4};cout<<arr[0]*arr[2];|4|8|16|C
+Which is true for arr[5]?|Represents element 5|Represents element at index 5|Represents size|B
+Which keyword defines array?|array|new|None|C
+Output: int arr[3]={1,2,3};cout<<arr[3];|3|Error|Undefined behavior|C
+Access out-of-range index?|Safe|Undefined behavior|Fixed|B
+Which is multidimensional array example?|int a();|int a[3][2];|int(a);|B
+Which is valid?|int arr[] = {1,2,3};|int arr[];|int arr = [1,2];|A
+Can array size be input from user?|No|Yes using variable size|Only for char|B

@@ -1,0 +1,50 @@
+What is a function in C++?|A storage container|A block of code that performs a specific task|A loop|B
+Keyword used to return a value from a function?|break|continue|return|C
+Correct syntax to declare int sum()?|int sum {}|int sum();|sum int();|B
+Return type of a function that returns no value?|nothing|int|void|C
+What are function parameters?|Variables in main|Values returned by function|Variables passed into a function|C
+Output of add(2,3)?|23|5|2|B
+Correct call for void hello()?|hello;|call hello();|hello();|C
+Function prototype means?|The main function|A loop inside function|Declaration of function before main()|C
+Where is return type written?|After name|Before name|Inside body|B
+If a function must return a value but doesn’t?|Compiler error|Returns 0|Program runs|A
+Default parameter means?|Parameter with starting value|Parameter that must be passed|No data type|A
+Output of test() with default x=10?|0|10|Error|B
+Function overloading means?|Calling many functions|Same name, different parameters|Loops inside functions|B
+Which is true about functions?|Reduce reusability|Make programs longer|Divide program into smaller parts|C
+Result of show(5) when two show() exist?|A|B|Error|B
+A function definition contains?|Only name|Name + body|Only return type|B
+Main purpose of return statement?|Stop loop|Exit program|Return value to caller|C
+How many times can a function be called?|Once|Twice|Unlimited|C
+Which is a valid function name?|2fun|my-function|calculateSum|C
+Output of: int f(){return 3;} cout<<f();?|0|3|Error|B
+Function body is enclosed in?|()|{}|<>|B
+What does a void function return?|Nothing|0|False|A
+Which keyword defines a function?|func|method|None (just write return type)|C
+Output of: void f(){cout<<"X";} f();?|No output|X|Error|B
+Which is NOT part of function header?|Return type|Function name|Variable values|C
+Function parameters are written inside?|Braces {}|Parentheses ()|Brackets []|B
+Output: int f(int x){return x*x;} cout<<f(3);?|6|9|3|B
+Type of value returned by float average()?|int|float|char|B
+Can two functions have same name but different parameters?|Yes|No|Only in classes|A
+What is a function argument?|Value passed to function|Value returned|Name of function|A
+Output: int f(int x,int y){return x+y;} cout<<f(4,1);?|41|5|4|B
+Function must be declared before?|main() ends|They are used|Program finishes|B
+Which operator is used to access functions from libraries?|::|.|#|A
+What is recursive function?|Calls itself|Returns nothing|Runs once only|A
+Output: int f(int x){ if(x==0) return 1; return x+f(x-1);} f(2);?|2|3|4|C
+What must match in prototype and definition?|Variable names|Return type + parameters|Body|B
+Function can return how many values directly?|Many|One|Zero always|B
+Output: int f(){int x=5; return x;} cout<<f();?|0|5|Error|B
+If function returns int but no return provided?|Valid|Undefined behavior|Compiler error|C
+Which keyword sends execution back to caller?|call|return|goto|B
+Can a function call another function?|Yes|No|Only main() can|A
+Output: void f(int x){cout<<x;} f(0);?|Nothing|0|Error|B
+What is local variable?|Available everywhere|Inside function only|In whole program|B
+Which is global variable?|Declared inside function|Declared outside all functions|Declared in main only|B
+Output: int x=5; void f(){cout<<x;} f();?|5|Error|0|A
+What does inline function mean?|Stored in RAM|Compiler expands it inline|Runs online|B
+Can functions return arrays?|Yes with pointers|No|Only strings|A
+Which improves code reusability?|Loops|Functions|Variables|B
+Output: int f(int x){return x>5;} cout<<f(7);?|0|1|Error|B
+Which is the correct form of function template?|template<typename T>|template(T)|function template T|A

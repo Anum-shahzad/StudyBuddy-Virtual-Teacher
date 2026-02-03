@@ -1,0 +1,50 @@
+Correct syntax of for loop in C++?|for(init;cond;inc){}|for(init,cond,inc){}|for(init;cond;inc);|C
+How many times will for(int i=1;i<=5;i++) run?|4|5|6|B
+Starting value of i in for(int i=0;i<10;i++)?|1|0|10|B
+Which part runs after every iteration?|Initialization|Condition check|Increment/Decrement|C
+If condition is always true, loop becomes?|Runs once|Runs twice|Infinite loop|C
+Output of: for(int i=1;i<=3;i++) cout<<i<<" ";?|1 2 3|1 2 3 4|0 1 2|A
+Best loop when iterations are known?|while|do-while|for|C
+Output of: for(int i=5;i>0;i--) cout<<i<<" ";?|5 4 3 2 1|1 2 3 4 5|5 6 7 8 9|A
+Which increments i by 2?|i++|i=i+2|i+=2|C
+Output of: for(int i=0;i<3;i++) cout<<"Hi ";?|Hi|Hi Hi|Hi Hi Hi|C
+Can initialization be skipped in for loop?|Yes|No|Only in while|A
+Can increment be skipped in for loop?|Yes|No|Never|A
+Correct loop for array of size 5?|for(i=0;i<5)|for(i=1;i<=5)|for(i=0;i<=5)|A
+Scope of variable declared inside for loop?|Global|Local to loop|Local to main|B
+Which exits a for loop immediately?|continue|break|exit|B
+Which part of the for loop runs first?|Initialization|Condition|Increment|A
+What happens if condition is false initially?|Runs once|Does not run|Runs infinitely|B
+Output: for(int i=2;i<=6;i+=2) cout<<i<<" ";?|2 4 6|2 3 4 5 6|1 2 3|A
+Which keyword skips current iteration?|skip|continue|break|B
+Which keyword stops entire loop?|stop|break|end|B
+Output: for(int i=3;i>0;i--) cout<<i;?|321|123|111|A
+Which loop allows all three parts to be optional?|for|while|do-while|A
+for( ; ; ) represents?|Invalid loop|Infinite loop|One-time loop|B
+Output: for(int i=1;i<4;i++) cout<<ii<<" ";?|1 4 9|1 2 3|2 3 4|A
+Variable declared in initialization is?|Global|Local|Static|B
+Can we write multiple initializations?|Yes|No|Only two|A
+Output: for(int i=0;i<5;i+=2) cout<<i<<" ";?|0 2 4|1 3 5|2 4 6|A
+Which loop is most commonly used for counting?|while|for|switch|B
+Which part is optional in for loop?|Initialization|Condition|Increment|All of these|D
+Output: for(int i=10;i>=7;i--) cout<<i<<" ";?|10 9 8 7|9 8 7|10 9 8|A
+What type of loop is for loop?|Entry-controlled|Exit-controlled|Hybrid|A
+Syntax error in for(int i=0 i<5 i++)?|Missing ;|Missing ()|Missing {}|A
+Output: for(int i=1;i<=3;i++) cout<<"";?||||A
+Can you nest for loops?|Yes|No|Only two levels|A
+Nested loops mean?|Loop inside loop|Loop after loop|Two loops same line|A
+Output: for(int i=1;i<=2;i++) for(int j=1;j<=2;j++) cout<<i<<j<<" ";?|11 12 21 22|12 21 22|11 22|A
+Which loop is shortest in syntax?|for|while|do-while|A
+When does increment execute?|Before loop|After condition check|After loop body|C
+Output: for(int i=0;i<3;i++) cout<<i+1;?|123|012|345|A
+What is i after for(int i=0;i<3;i++)? (Outside loop)|3|2|Undefined|C
+Which keyword jumps to next iteration?|break|continue|goto|B
+What happens if increment is missing?|Syntax error|May cause infinite loop|Stops loop|B
+Output: for(int i=1;i<=4;i++) cout<<i*2<<" ";?|2 4 6 8|1 2 3 4|4 8 12|A
+What is loop counter?|Variable that controls loop|Output of loop|Condition|A
+Which loop is best for fixed number of iterations?|while|for|if|B
+Output: for(int i=1;i<=5;i++) if(i%2==0) cout<<i<<" ";?|2 4|1 3 5|4 5|A
+Can we use float as loop counter?|Yes|No|Only in while loop|A
+Output: for(int i=5;i<=5;i++) cout<<i;?|5|No output|55|A
+If semicolon is added after for loop header?|Becomes empty loop|Runs normally|Throws error|A
+Output: for(int i=0;i<1;i++) cout<<"Hello";?|Hello|Hello Hello|No output|A

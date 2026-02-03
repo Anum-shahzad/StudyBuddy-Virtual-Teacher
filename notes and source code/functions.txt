@@ -1,0 +1,70 @@
+====================================================
+                FUNCTIONS IN C++                   
+====================================================
+
+1. INTRODUCTION
+Functions let you organize code, avoid repetition, 
+and reuse logic. Think of them as mini-machines that 
+perform tasks when called.
+
+----------------------------------------------------
+
+2. WHAT IS A FUNCTION?
+A block of code that performs a specific job.
+Types:
+- Built-in Functions (sqrt, pow)
+- User-Defined Functions
+
+----------------------------------------------------
+
+3. FUNCTION STRUCTURE
+returnType functionName(parameters) {
+    // body
+}
+
+Example:
+int add(int a, int b) {
+    return a + b;
+}
+
+----------------------------------------------------
+
+4. CALLING A FUNCTION
+int result = add(5, 10);
+cout << result;
+
+----------------------------------------------------
+
+5. PARAMETERS
+A) Pass by Value
+- Function gets a copy.
+
+B) Pass by Reference
+- Function gets the actual variable (&).
+
+----------------------------------------------------
+
+6. RETURN TYPES
+A) Returning a Value
+float multiply(float x, float y) { return x * y; }
+
+B) Void Functions
+void hello() { cout << "Hello World"; }
+
+----------------------------------------------------
+----------------------------------------------------
+
+7. FUNCTIONS + ARRAYS
+int sumArray(int arr[], int size) {
+    int sum = 0;
+    for(int i = 0; i < size; i++) sum += arr[i];
+    return sum;
+}
+
+----------------------------------------------------
+----------------------------------------------------
+
+8. CONCLUSION
+Functions make code structured, reusable, and scalable.
+
+====================================================

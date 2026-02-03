@@ -1,0 +1,74 @@
+Which keyword is used to declare a variable in C++?|var|declare|int|C
+What is the correct way to declare an integer variable?|integer x;|int x;|num x;|B
+Which data type stores a single character?|string|char|int|B
+What is the size of an int in most C++ compilers?|1 byte|2 bytes|4 bytes|C
+Which of the following is a valid variable name?|2num|int|first_name|C
+Output of cout << x; if int x = 10;?|x|10|error|B
+Which data type can store decimal values?|int|float|char|B
+Value of an uninitialized variable in C++?|0|garbage value|null|B
+Which symbol is used for assignment?|==|=|:=|B
+Correct way to assign 5 to x?|x == 5;|int x == 5;|x = 5;|C
+Type of 'true' in C++?|char|string|bool|C
+Which variable name follows best practice?|a7gh|tempValue|data*|B
+Output of cout << x + y; if x=2, y=3?|2 + 3|x + y|5|C
+Which is NOT a primitive data type?|int|float|string|C
+What does bool store?|numbers|characters|true/false|C
+Which keyword is used to declare a float variable?|decimal|float|real|B
+Which of these is an invalid variable name?|_val|totalAmount|my-variable|C
+What is the size of a char in C++?|1 byte|2 bytes|4 bytes|A
+Which type can store large whole numbers?|char|int|long long|C
+Which data type is used for true/false values?|flag|bool|int|B
+Which of these is a correct double declaration?|double x:|dbl x;|double x;|C
+Which variable stores a single word like "Hello"?|char|string|int|B
+Which keyword is used to declare a character variable?|ch|character|char|C
+Which of these is case-sensitive in C++?|Keywords|Variable names|Both|B
+What is the default value of static int variables?|0|1|garbage|A
+Which of these represents a constant variable?|final x=5;|const int x=5;|constant x=5;|B
+Which modifier increases range of int?|short|tiny|long|C
+Which data type uses the most memory generally?|int|double|char|B
+What is the correct syntax to declare multiple ints?|int x,y,z;|int x y z;|int (x,y,z);|A
+Which is used to take user input?|cin>>|cout<<|input()|A
+Which type safely stores very big integers?|int|long long|float|B
+Which format is correct for declaring string?|string name;|str name;|char name;|A
+Which stores ASCII values?|char|bool|float|A
+Which stores both whole and decimal values?|int|float|char|B
+Which is used to check memory size of a variable?|length()|mem()|sizeof()|C
+Which is valid initialization?|int a=10;|int =10 a;|10=int a;|A
+Which type is best for storing age?|float|char|int|C
+Which stores only whole numbers?|float|int|string|B
+Which operator gets address of a variable?|#|@|&|C
+Which operator accesses value from memory address? |$|*|&|B
+Which is a global variable?|Declared inside main|Declared inside a function|Declared outside all functions|C
+Which loses value when function ends?|static variable|global variable|local variable|C
+What is the range of bool?|0 to 255|0 or 1|any number|B
+Which type stores very small decimal values with high precision?|int|double|string|B
+What is the correct way to declare constant pi?|const float pi=3.14;|float const=3.14;|float pi const;|A
+Which symbol ends a statement?|:|;|,|B
+Which of these is used for comments?|//|##|--|A
+Which type stores Unicode characters?|char|string|wide char (wchar_t)|C
+Which keyword is used to define a variable only once?|once|final|const|C
+Which stores characters as integers internally?|float|char|bool|B
+Output of: int x=5; cout<<x*2;?|5|10|x*2|B
+What is the default value of a global int variable in C++?|undefined|0|1|B
+Which keyword is used to define a constant variable?|fixed|const|constant|B
+Which of the following is a floating-point type?|int|double|char|B
+Which variable type can store the largest range of numbers?|int|short|long long|C
+Which keyword is used to declare a floating variable?|float|decimal|real|A
+Which of the following cannot be used in a variable name?|_|letter|space|C
+Which operator is used to access the address of a variable?||&|@|B
+Which data type is best for storing very large integers?|long long|float|double|A
+char variables store values using which symbols?|“ ”|‘ ’|( )|B
+Which of the following represents correct initialization?|int x; x = 4;|x int = 4;|int = 4 x;|A
+Which one stores true or false values?|char|bool|string|B
+Which keyword is used to define a variable inside a function?|local|int|static|B
+Which variable type stores text?|char|string|bool|B
+What is the size of a char in C++?|1 byte|2 bytes|4 bytes|A
+Which value can a boolean store?|10|yes|true|C
+Which is a valid declaration for multiple integers?|int a, b;|int a + b;|int(a+b);|A
+What does initialization mean?|deleting a variable|giving first value|copying value|B
+What is the value of x after: int x = 7.9;?|7.9|7|8|B
+Which symbol begins a single-line comment?|#|//|/|B
+Which data type is used for large precise decimals?|int|float|double|C
+Which of the following is NOT allowed in variable names?|numbers|underscore|hyphen|C
+Which of these is a user-defined type?|int|float|struct|C
+Which of the following correctly declares a char variable?|char letter;|char = letter;|letter char;|A

@@ -1,0 +1,137 @@
+=====================================================
+                    LOOPS IN C++
+                Complete Lecture Notes
+=====================================================
+
+I. INTRODUCTION TO LOOPS
+
+Loops help us repeat tasks multiple times without
+writing repetitive code. Imagine watering 10 plants—
+loops let us perform repeated actions efficiently.
+
+A loop checks a condition, executes a block of code
+if true, and continues until the condition becomes false.
+Loops are the backbone of repetitive tasks in C++.
+
+-----------------------------------------------------
+
+II. TYPES OF LOOPS IN C++
+
+1. FOR LOOP      - When we know the number of repetitions
+2. WHILE LOOP    - Repeat while a condition is true
+3. DO-WHILE LOOP - Executes at least once before checking
+
+-----------------------------------------------------
+
+III. FOR LOOP
+
+A. Syntax
+
+  for(initialization; condition; increment/decrement) {
+      // code to execute
+  }
+
+B. Example
+
+  for(int i = 1; i <= 5; i++) {
+      cout << "Hello! " << i << endl;
+  }
+
+Prints "Hello!" five times.
+
+C. When to Use
+
+Use for loops when the number of iterations is known.
+
+-----------------------------------------------------
+
+IV. WHILE LOOP
+
+A. Syntax
+
+  while(condition) {
+      // code to execute
+  }
+
+B. Example
+
+  int i = 1;
+  while(i <= 5) {
+      cout << "Counting: " << i << endl;
+      i++;
+  }
+
+C. When to Use
+
+Use while loops when the number of repetitions is unknown
+or depends on a condition (like reading user input).
+
+-----------------------------------------------------
+
+V. DO-WHILE LOOP
+
+A. Syntax
+
+  do {
+      // code to execute
+  } while(condition);
+
+B. Example
+
+  int i = 1;
+  do {
+      cout << "Number: " << i << endl;
+      i++;
+  } while(i <= 5);
+
+C. When to Use
+
+Use do-while loops for tasks that must run at least once,
+like menu-driven programs.
+
+-----------------------------------------------------
+
+VI. NESTED LOOPS
+
+Loops can be placed inside other loops:
+
+  for(int i = 1; i <= 3; i++) {
+      for(int j = 1; j <= 2; j++) {
+          cout << "i = " << i << ", j = " << j << endl;
+      }
+  }
+
+Useful for patterns, matrices, or multi-dimensional tasks.
+
+-----------------------------------------------------
+
+VII. LOOP CONTROL STATEMENTS
+
+1. break    - Stops the loop immediately
+2. continue - Skips current iteration and moves to next
+3. return   - Exits the function containing the loop
+
+Example:
+
+  for(int i = 1; i <= 5; i++) {
+      if(i == 3) continue;  // Skip 3
+      if(i == 5) break;     // Stop at 5
+      cout << i << " ";
+  }
+
+Output: 1 2 4
+
+-----------------------------------------------------
+-----------------------------------------------------
+
+IX. CONCLUSION
+
+Loops in C++ automate repetitive tasks, making programs
+efficient and dynamic. Mastering for, while, do-while,
+nested loops, and control statements ensures readable,
+optimized code.
+
+Loops are like the heartbeat of a program—they keep it
+alive and performing tasks continuously without repetition.
+
+=====================================================

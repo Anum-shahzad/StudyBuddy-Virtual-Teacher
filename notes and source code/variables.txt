@@ -1,0 +1,146 @@
+=====================================================
+                VARIABLES IN C++
+            Complete Lecture Notes
+=====================================================
+
+I. INTRODUCTION TO VARIABLES
+
+Variables are like containers that hold information.
+Think of them as labeled jars where we store data
+so it can be used later in the program.
+
+They let programs remember values, change them,
+and perform operations. Without variables, code
+would be rigid. With them, programs are dynamic.
+
+-----------------------------------------------------
+
+II. UNDERSTANDING THE ROLE OF VARIABLES
+
+A. What Are Variables?
+
+Variables are named storage locations in memory that
+hold data which can change during execution.
+
+Essential traits:
+  1. NAME  - what we call it
+  2. TYPE  - what kind of data it can store
+  3. VALUE - the actual data
+
+B. Why Do We Need Variables?
+
+-> Store user input
+-> Perform calculations
+-> Build logic-based decisions
+-> Reuse information throughout the program
+
+-----------------------------------------------------
+
+III. DECLARING AND INITIALIZING VARIABLES
+
+A. Declaration
+
+Before use, declare a variable:
+
+  type variableName;
+
+Example:
+  int marks;
+
+B. Initialization
+
+Give the variable its first value:
+
+  int marks = 95;
+
+Multiple variables:
+  int x, y, z;
+  int a = 10, b = 20;
+
+C. Assignment
+
+Update the value of an existing variable:
+
+  marks = 100;
+
+-----------------------------------------------------
+
+IV. TYPES OF VARIABLES IN C++
+
+A. Built-in Data Types
+
+1. int    - whole numbers
+   Example: int age = 21;
+
+2. float  - decimal numbers
+   Example: float price = 19.99;
+
+3. double - high precision decimals
+   Example: double distance = 45.6789;
+
+4. char   - single character
+   Example: char grade = 'A';
+
+5. bool   - true/false
+   Example: bool isPassed = true;
+
+B. String
+
+Example: string name = "Anum";
+
+C. Modifiers
+
+* short, long, unsigned, signed
+Example: unsigned int points = 150;
+
+-----------------------------------------------------
+
+V. Local and Global VARIABLES
+
+
+1. Local Variables
+   Declared inside a function or block.
+   Example:
+     void demo() {
+         int x = 5;
+     }
+
+2. Global Variables
+   Declared outside functions.
+   Example:
+     int num = 0;
+     int main() { /* access num here */ }
+
+ 
+-----------------------------------------------------
+
+VI. NAMING RULES AND BEST PRACTICES
+
+A. Naming Rules
+
+* Start with letter or underscore
+* Cannot start with a digit
+* No spaces
+* Case-sensitive
+* Avoid reserved keywords
+
+-----------------------------------------------------
+-----------------------------------------------------
+
+VIII. INPUT AND OUTPUT WITH VARIABLES
+
+Example:
+  int marks;
+  cout << "Enter your marks: ";
+  cin >> marks;
+  cout << "You entered: " << marks;
+
+=====================================================
+CONCLUSION
+
+Variables are the foundation of every program.
+They help store, manipulate, and use data in countless ways.
+Understanding types, scope, rules, and best practices
+leads to cleaner, smarter code.
+
+=====================================================

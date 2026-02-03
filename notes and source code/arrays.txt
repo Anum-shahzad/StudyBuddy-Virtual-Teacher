@@ -1,0 +1,139 @@
+=====================================================
+                    ARRAYS IN C++
+                Complete Lecture Notes
+=====================================================
+
+I. INTRODUCTION TO ARRAYS
+
+When programming, we often need to store multiple values
+of the same type. Instead of creating many variables,
+we use a single container with multiple slots called an
+ARRAY.
+
+Arrays allow us to store a collection of elements under
+one name, making the code cleaner and more organized.
+
+-----------------------------------------------------
+
+II. UNDERSTANDING ARRAYS
+
+A. What is an Array?
+
+An array is a collection of variables of the SAME DATA TYPE,
+stored in continuous memory locations. Each element is
+accessed using an INDEX starting from 0.
+
+Example:
+
+  int marks[5];   // an array of 5 integers
+
+Indexes: marks[0], marks[1], marks[2], marks[3], marks[4]
+
+B. Why Use Arrays?
+
+* They reduce the need for multiple variables
+* They allow easy access using loops
+* They help organize data for sorting/searching
+
+-----------------------------------------------------
+
+III. DECLARING AND INITIALIZING ARRAYS
+
+A. Declaration Syntax
+
+  type arrayName[size];
+
+Example:
+
+  float prices[10];   // stores 10 float values
+
+B. Initialization
+
+  int numbers[5] = {10, 20, 30, 40, 50};
+
+If fewer values are given, remaining elements become 0:
+
+  int arr[5] = {1, 2};   // arr[2], arr[3], arr[4] = 0
+
+Compiler-deduced size:
+
+  int arr[] = {5, 10, 15};   // size = 3
+
+-----------------------------------------------------
+
+IV. ACCESSING AND MODIFYING ARRAY ELEMENTS
+
+Access:
+
+  int scores[3] = {80, 90, 70};
+  cout << scores[1];     // prints 90
+
+Modify:
+
+  scores[2] = 75;        // updates 70 become 75
+
+-----------------------------------------------------
+
+V. ARRAY AND LOOPS
+
+Arrays are usually used with loops.
+
+A. Using For Loop
+
+  int numbers[5] = {1, 2, 3, 4, 5};
+
+  for(int i = 0; i < 5; i++) {
+      cout << numbers[i] << " ";
+  }
+
+B. Using While Loop
+
+  int i = 0;
+  while(i < 5) {
+      cout << numbers[i] << " ";
+      i++;
+  }
+
+Loops make it easy to sum, search, or find max/min.
+
+-----------------------------------------------------
+
+VI. MULTIDIMENSIONAL ARRAYS
+
+A. Two-Dimensional Arrays
+
+  int matrix[2][3] = {
+      {1, 2, 3},
+      {4, 5, 6}
+  };
+
+matrix[0][0] = 1  
+matrix[1][2] = 6
+
+Processing with nested loops:
+
+  for(int i = 0; i < 2; i++) {
+      for(int j = 0; j < 3; j++) {
+          cout << matrix[i][j] << " ";
+      }
+      cout << endl;
+  }
+
+-----------------------------------------------------
+-----------------------------------------------------
+
+VII. COMMON MISTAKES WITH ARRAYS
+
+* Accessing out of bounds (e.g., arr[5] in size-5 array)
+* Using uninitialized arrays (garbage values)
+* Forgetting arrays start at index 0
+
+-----------------------------------------------------
+
+VIII. CONCLUSION
+
+Arrays in C++ are essential for storing and managing multiple
+values efficiently. From simple 1D arrays to 2D grids, arrays
+form the base of advanced programming and algorithms.
+
+=====================================================

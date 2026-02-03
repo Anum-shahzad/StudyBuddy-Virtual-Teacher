@@ -1,0 +1,51 @@
+Purpose of an if-else statement in C++?|To store data|To perform loops|To make decisions based on conditions|C
+Symbol for equality comparison in C++?|=|==|!=|B
+Output of: int x=10; if(x>5) cout<<"Yes"; else cout<<"No";?|Yes|No|Error|A
+Check if x is NOT equal to 5?|if(x != 5)|if(x =! 5)|if(x <> 5)|A
+How many times does else block execute if if-condition is true?|Always once|Never|Multiple times|B
+Correct syntax for an if statement?|if x>5 then {}|if(x>5) {}|if x>5 {}|B
+Output of: int age=16; if(age>=18) cout<<"Adult"; else cout<<"Minor";?|Adult|Minor|Error|B
+Logical operator for AND in C++?|&|&&|!|B
+Logical operator for OR in C++?|&||||!|C
+Output of: int x=10,y=5; if(x<5) cout<<"A"; else if(y<10) cout<<"B"; else cout<<"C";?|A|B|C|B
+Nested if-else means?|An if inside another if|A loop inside if|Multiple else blocks|A
+Output of: int x=5; if(x>0) if(x<10) cout<<"Inside"; else cout<<"Outside";?|Inside|Outside|Error|A
+Statement about else if?|Mandatory always|Used for multiple conditions|Executes only if previous is false|C
+Output of: int x=7; if(x%2==0) cout<<"Even"; else cout<<"Odd";?|Even|Odd|Error|B
+Correct order of execution in if-else ladder?|Random order|Bottom to top|Top to bottom, stops at first true|C
+Output: int x=3; if(x==3) cout<<"A"; else cout<<"B";?|A|B|Error|A
+Comparison operator for greater than?|>|>=|<|A
+Output: int x=10; if(x<5) cout<<"Low"; else cout<<"High";?|Low|High|Error|B
+Which evaluates to true?|5>3|3>5|5==0|A
+Else belongs to?|Closest unmatched if|First if only|Last if only|A
+If both if and else are missing braces?|Only first statement controlled|Compile error|Both run|A
+Output: int x=0; if(x) cout<<"T"; else cout<<"F";?|T|F|Error|B
+Which is a relational operator?|&&|!=|!|B
+Output: int a=4; if(a%2) cout<<"Odd"; else cout<<"Even";?|Odd|Even|Error|B
+Meaning of !(x>5)?|x>5|x<=5|x>=5|B
+Output: int x=6; if(x>10) cout<<"Yes"; cout<<"No";?|Yes|No|YesNo|B
+Else without if causes?|Error|Warning|Valid code|A
+Output: int x=5; if(x>=5) if(x==5) cout<<"Match"; else cout<<"No";?|Match|No|Error|A
+Which operator is used for NOT?|!|!=|==|A
+Output: int x=2; if(x>1 && x<5) cout<<"OK";|OK|Not OK|Error|A
+Output: int x=8; if(x<3 || x>5) cout<<"Yes"; else cout<<"No";?|Yes|No|Error|A
+If both conditions false in OR?|True|False|Depends|B
+If one condition false in AND?|True|False|Depends|B
+Output: int x=1; if(x==2) cout<<"A"; else if(x==1) cout<<"B"; else cout<<"C";?|A|B|C|B
+Output: int x=10; if(x!=10) cout<<"A"; else cout<<"B";?|A|B|Error|B
+Can if-else be nested?|Yes|No|Only inside loops|A
+Output: int x=4; if(x%2==0) cout<<"E"; else cout<<"O";?|E|O|Error|A
+Else-if ladder stops when?|After last condition|At first true condition|Never stops|B
+Output: int x=15; if(x>20) cout<<"A"; else if(x>10) cout<<"B"; else cout<<"C";?|A|B|C|B
+What does == check?|Assignment|Equality|Inequality|B
+Output: int x=-1; if(x<0) cout<<"Neg"; else cout<<"Pos";?|Neg|Pos|Error|A
+Which is valid?|if(x>0)||if{x>0}|if x>0|A
+Output: int x=3; if(x>5) cout<<1; else if(x>2) cout<<2; else cout<<3;?|1|2|3|B
+Else can be used with?|if|switch|for|A
+Output: int x=9; if(x==9) cout<<"OK";?|OK|No output|Error|A
+If condition is non-zero?|True|False|Depends|A
+Output: int x=0; if(!x) cout<<"Yes"; else cout<<"No";?|Yes|No|Error|A
+Which compares two values?|!=|=|+=|A
+Output: int x=5; if(x<10) cout<<"A"; if(x>2) cout<<"B";?|A|B|AB|C
+Result of true && false?|true|false|0|B
+Result of true || false?|true|false|0|A

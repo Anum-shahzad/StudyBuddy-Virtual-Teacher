@@ -1,0 +1,116 @@
+=====================================================
+               IF-ELSE STATEMENTS IN C++
+            Complete Lecture Notes
+=====================================================
+
+I. INTRODUCTION TO IF-ELSE STATEMENTS
+
+Decision-making is crucial in C++ to create dynamic programs.
+The if-else statement checks conditions and executes different
+blocks based on the result.
+
+Example: At a crossroads, you choose one path if green, another
+if red. Similarly, if-else lets the program react differently
+based on conditions.
+
+-----------------------------------------------------
+
+II. BASIC SYNTAX OF IF-ELSE
+
+A. The If Statement
+
+Checks a single condition:
+
+  if (condition) {
+      // code executes if true
+  }
+
+Example:
+  int age = 18;
+  if (age >= 18) {
+      cout << "You are eligible to vote.";
+  }
+
+B. The Else Statement
+
+Handles the false case:
+
+  if (age >= 18) {
+      cout << "You are eligible to vote.";
+  } else {
+      cout << "You are not eligible to vote.";
+  }
+
+-----------------------------------------------------
+
+III. ELSE-IF LADDER
+
+Used when more than two choices exist:
+
+  if (marks >= 90) {
+      cout << "Grade A";
+  } else if (marks >= 75) {
+      cout << "Grade B";
+  } else if (marks >= 60) {
+      cout << "Grade C";
+  } else {
+      cout << "Grade F";
+  }
+
+Program checks conditions in order; the first true condition runs.
+
+-----------------------------------------------------
+
+IV. NESTED IF-ELSE
+
+If-else inside another if-else allows detailed decisions:
+
+  int age = 20;
+  int score = 85;
+
+  if (age >= 18) {
+      if (score >= 80) {
+          cout << "Adult with excellent score";
+      } else {
+          cout << "Adult with average score";
+      }
+  } else {
+      cout << "Minor student";
+  }
+
+-----------------------------------------------------
+
+V. LOGICAL OPERATORS WITH IF-ELSE
+
+Enhance conditions using:
+
+* && (AND) - true if both conditions are true
+* || (OR)  - true if at least one condition is true
+* !  (NOT) - reverses the condition
+
+Example:
+  int age = 25;
+  bool hasID = true;
+
+  if (age >= 18 && hasID) {
+      cout << "Entry allowed";
+  } else {
+      cout << "Entry denied";
+  }
+
+-----------------------------------------------------
+-----------------------------------------------------
+
+VII. CONCLUSION
+
+The if-else statement is the backbone of decision-making in C++.
+It enables programs to respond differently based on conditions.
+
+Mastering if, else if, else, nested statements, and logical operators
+lets you build programs that behave exactly as intended.
+
+Think of if-else as the brain of your program—it evaluates the
+situation and chooses the correct path. Once comfortable, creating
+responsive, interactive, and smart programs becomes second nature.
+
+=====================================================
